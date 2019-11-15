@@ -12,5 +12,10 @@ public class Main {
         System.out.println(myMap.values());
         System.out.println(myList.get(0));
         System.out.println(myList.get(1));
+        Main.printName();
+    }
+
+    public static void printName(){
+        System.out.println("My name is ");
     }
 }
